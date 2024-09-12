@@ -1,0 +1,46 @@
+==========================================================================================
+			COMANDOS BÁSICOS DE GIT 
+
+# Definução de comfigurações de usuario
+git config --global user.name "Seu Nome"
+git config --global user.email "seu.email@exemplo.com"
+
+# Verificar usário e senha 
+git config --list
+
+# Clonar um repositório web
+git clone https://Usuario/repositorio.git
+
+#Verificar o status do repositório
+git status
+
+#Inicializar o repositório 
+git init
+
+# Adicionar todas as alterações feitas no repositório local
+git add . 
+
+# Adicionar um arquivo especifico
+git add Nome_do_arquivo
+
+# Criar um commit (versionamento local)
+git commit -m "Meu primeiro commit"
+
+# Histórico dos commits
+git log
+
+# Criar um push request (versionamento remoto)
+git push 
+# Após isso digitar E-mail ou usuário, e senha
+
+
+# Criar solicitação de pull (atualizar o repositório para a verção mais recente disponivel)
+git pull origin master
+
+# Cria uma branch (repositório paralelo)
+git branch nome-da-branch
+
+# Criar uma solicitação de pull para uma branch espacífica
+git pull nome-da-branch
+
+===================================================================================================
