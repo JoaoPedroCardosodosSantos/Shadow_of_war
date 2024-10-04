@@ -29,16 +29,27 @@ git commit -m "Meu primeiro commit"
 # Histórico dos commits
 git log
 
-# Criar um push request (versionamento remoto)
+# Criar um push request (versionamento remoto) para a branch em que se encontra no momento 
 git push 
 # Após isso digitar E-mail ou usuário, e senha
 
+# Para fazer um push em uma branch especifica diferente 
+git push origin <nome-da-branch>
 
 # Criar solicitação de pull (atualizar o repositório para a verção mais recente disponivel)
 git pull origin master
 
 # Cria uma branch (repositório paralelo)
 git branch nome-da-branch
+
+# Listar a branch em que esta 
+git branch
+
+# Listar todas as branchs remotas e locais
+git branch -a 
+
+# Exibir informações de commit, README.md, rash de verção 
+git branch -v 
 
 # Criar uma solicitação de pull para uma branch espacífica
 git pull nome-da-branch

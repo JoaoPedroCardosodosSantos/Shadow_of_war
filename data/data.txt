@@ -1,0 +1,1 @@
+# Arquivos json de dados estáticos referentes ao jogo serão posteriormente adicionados aqui.
